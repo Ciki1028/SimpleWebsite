@@ -75,6 +75,12 @@ nav .navbar {
     margin-top: 180px;
 }
 
+#doc {
+    position: relative;
+    left: 500px;
+    Bottom: 20px;
+}
+
 .nav-links li a:hover {
     color: darkgoldenrod;
 
