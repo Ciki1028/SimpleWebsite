@@ -34,7 +34,7 @@ nav .navbar {
 .navbar .logo a {
     font-size: 35px;
     font-weight: 500;
-    color: darkgreen;
+    color: black;
 
 }
 
@@ -134,7 +134,7 @@ body {
 
 
 .skill-title h3 {
-    color: darkcyan;
+    color: black;
     margin-top: 0.5rem;
 }
 
@@ -185,7 +185,7 @@ body {
 .box .text1{
     display: flex;
     flex-direction: column;
-    color: darkcyan;
+    color: black;
     margin-left: 100px;
     position: relative;
     top: 60px;
@@ -193,7 +193,7 @@ body {
 
 .box .text h3 {
     font-weight: 500;
-    color: darkcyan;
+    color: black;
 
 }
 
@@ -235,7 +235,7 @@ body {
 .box .text2{
     display: flex;
     flex-direction: column;
-    color: darkcyan;
+    color: black;
     margin-left: 100px;
     position: relative;
     top: 20px;
@@ -244,7 +244,7 @@ body {
 .box .text3{
     display: flex;
     flex-direction: column;
-    color: darkcyan;
+    color: black;
     margin-left: 100px;
     position: relative;
     top: 40px;
@@ -253,7 +253,7 @@ body {
 .box .text4{
     display: flex;
     flex-direction: column;
-    color: darkcyan;
+    color: black;
     margin-left: 100px;
     position: relative;
     top: 80px;
@@ -262,7 +262,7 @@ body {
 .box .text5{
     display: flex;
     flex-direction: column;
-    color: darkcyan;
+    color: black;
     margin-left: 100px;
     position: relative;
     top: 100px;
