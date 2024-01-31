@@ -81,6 +81,9 @@ nav .navbar {
     position: relative;
     left: 500px;
     Bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
 }
 
 .nav-links li a:hover {
@@ -121,8 +124,6 @@ body {
     cursor: pointer;
 }
 
-
-
 .skill-title {
     display: flex;
     flex-direction: column;
@@ -154,8 +155,6 @@ body {
     align-items: center;
     transition: .5s;
 }
-
-
 
 .contact {
     position: relative;
@@ -194,7 +193,6 @@ body {
 .box .text h3 {
     font-weight: 500;
     color: black;
-
 }
 
 .icon1 {
