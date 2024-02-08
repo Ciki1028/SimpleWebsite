@@ -20,6 +20,7 @@ nav {
     width: 100%;
     background: blue;
     padding: 20px;
+    z-index: 3;
 }
 
 nav .navbar {
