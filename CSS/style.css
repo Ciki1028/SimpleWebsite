@@ -76,6 +76,7 @@ nav .navbar {
 .text {
      margin-top: 150px;
     margin-left: 20px;
+    color: blue;
 }
 
 .story {
@@ -134,7 +135,7 @@ body {
 
 
 .skill-title h3 {
-    color: black;
+    color: blue;
     margin-top: 0.5rem;
 }
 
