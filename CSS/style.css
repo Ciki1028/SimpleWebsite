@@ -1,1 +1,269 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    position: relative;
+    margin: 30px;
+    padding: 10px;
+    color: black;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: blue;
+    padding: 20px;
+    z-index: 3;
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar .logo a {
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-links, .nav-links li a {
+    display: flex;
+    position: relative;
+    left: 500px;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 4px;
+}
+
+#image {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 30px;
+    top: 150px;
+    border-radius: 400px;
+
+}
+
+.active {
+
+    background-color: gray;
+}
+
+.text {
+     margin-top: 150px;
+    margin-left: 20px;
+}
+
+.story {
+    margin: 10px;
+    margin-top: 180px;
+}
+
+#doc {
+    position: relative;
+    left: 500px;
+    Bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-links li a:hover {
+    color: darkgoldenrod;
+
+}
+
+
+body {
+    background-color:lightgray;
+}
+
+
+.container {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+
+.skill-box {
+    padding: 3rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+
+
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+
+.skill-title h3 {
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.skill-icon {
+    width: 50%;
+    z-index: 2;
+    
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -70px;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.box .icon {
+    position: relative;
+    display: flex;
+    top: 140px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box .text1{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin-left: 100px;
+    position: relative;
+    top: 60px;
+}
+
+.box .text h3 {
+    font-weight: 500;
+    color: black;
+}
+
+.icon1 {
+    position: relative;
+    display: flex;
+    top: 140px;
+    padding: 10px;
+}
+
+.icon2 {
+    position: relative;
+    display: flex;
+    top: 80px;
+    padding: 10px;
+}
+
+.icon3 {
+    position: relative;
+    display: flex;
+    top: 100px;
+    padding: 10px;
+}
+
+.icon4 {
+    position: relative;
+    display: flex;
+    top: 120px;
+    padding: 10px;
+}
+
+.icon5 {
+    position: relative;
+    display: flex;
+    top: 140px;
+    padding: 10px;
+}
+
+.box .text2{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+}
+
+.box .text3{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin-left: 100px;
+    position: relative;
+    top: 40px;
+}
+
+.box .text4{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin-left: 100px;
+    position: relative;
+    top: 80px;
+}
+
+.box .text5{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin-left: 160px;
+    position: relative;
+    top: 100px;
+}
+
+
+
