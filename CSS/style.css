@@ -11,7 +11,7 @@ h1 {
     position: relative;
     margin: 30px;
     padding: 10px;
-    color: black;
+    color: blue;
 }
 
 nav {
@@ -81,6 +81,7 @@ nav .navbar {
 .story {
     margin: 10px;
     margin-top: 180px;
+    color: blue;
 }
 
 #doc {
@@ -191,7 +192,7 @@ body {
 
 .box .text h3 {
     font-weight: 500;
-    color: black;
+    color: blue;
 }
 
 .icon1 {
