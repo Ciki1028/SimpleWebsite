@@ -213,21 +213,21 @@ body {
 .icon3 {
     position: relative;
     display: flex;
-    top: 100px;
+    top: 60px;
     padding: 10px;
 }
 
 .icon4 {
     position: relative;
     display: flex;
-    top: 120px;
+    top: 40px;
     padding: 10px;
 }
 
 .icon5 {
     position: relative;
     display: flex;
-    top: 140px;
+    top: 40px;
     padding: 10px;
 }
 
@@ -246,7 +246,7 @@ body {
     color: blue;
     margin-left: 100px;
     position: relative;
-    top: 40px;
+    top: 5px;
 }
 
 .box .text4{
@@ -255,7 +255,7 @@ body {
     color: blue;
     margin-left: 100px;
     position: relative;
-    top: 80px;
+    top: 5px;
 }
 
 .box .text5{
@@ -264,7 +264,7 @@ body {
     color: blue;
     margin-left: 160px;
     position: relative;
-    top: 100px;
+    top: 5px;
 }
 
 
