@@ -186,9 +186,9 @@ body {
     display: flex;
     flex-direction: column;
     color: blue;
-    margin-left: 100px;
+    margin-left: 115px;
     position: relative;
-    top: 60px;
+    top: 290px;
 }
 
 .box .text h3 {
@@ -199,35 +199,40 @@ body {
 .icon1 {
     position: relative;
     display: flex;
-    top: 140px;
+    top: 300px;
+    margin-left: 110px;
     padding: 10px;
 }
 
 .icon2 {
     position: relative;
     display: flex;
-    top: 80px;
+    top: 130px;
+    margin-left: 400px;
     padding: 10px;
 }
 
 .icon3 {
     position: relative;
     display: flex;
-    top: 60px;
+    bottom: 0px;
+    margin-left: 700px;
     padding: 10px;
 }
 
 .icon4 {
     position: relative;
     display: flex;
-    top: 40px;
+    top: -130px;
+    margin-left: 1000px;
     padding: 10px;
 }
 
 .icon5 {
     position: relative;
     display: flex;
-    top: 40px;
+    top: -240px;
+    margin-left: 1300px;
     padding: 10px;
 }
 
@@ -235,36 +240,36 @@ body {
     display: flex;
     flex-direction: column;
     color: blue;
-    margin-left: 100px;
+    margin-left: 410px;
     position: relative;
-    top: 20px;
+    top: 120px;
 }
 
 .box .text3{
     display: flex;
     flex-direction: column;
     color: blue;
-    margin-left: 100px;
+    margin-left: 720px;
     position: relative;
-    top: 5px;
+    bottom: 10px;
 }
 
 .box .text4{
     display: flex;
     flex-direction: column;
     color: blue;
-    margin-left: 100px;
+    margin-left: 1000px;
     position: relative;
-    top: 5px;
+    bottom: 140px;
 }
 
 .box .text5{
     display: flex;
     flex-direction: column;
     color: blue;
-    margin-left: 160px;
+    margin-left: 1330px;
     position: relative;
-    top: 5px;
+    bottom: 250px;
 }
 
 
