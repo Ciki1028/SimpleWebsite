@@ -88,11 +88,11 @@ nav .navbar {
 
 #doc {
     position: relative;
-    left: 500px;
+    text-align: center;
     Bottom: 20px;
     font-size: 25px;
     font-weight: 500;
-    color: blue;
+    color: green;
 }
 
 .nav-links li a:hover {
