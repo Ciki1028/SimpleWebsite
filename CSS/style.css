@@ -15,23 +15,26 @@ h1 {
 }
 
 nav {
-    position: fixed;
-    left: 0;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    Flex-direction: row;
+    /*left: 0;
     top: 0;
-    width: 100%;
+    width: 100%;*/
     background: blue;
     padding: 20px;
     z-index: 3;
 }
 
-nav .navbar {
+/*nav .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
     max-width: 1200px;
     margin: auto;
-}
+}*/
 
 .navbar .logo a {
     font-size: 35px;
@@ -42,7 +45,7 @@ nav .navbar {
 .nav-links, .nav-links li a {
     display: flex;
     position: relative;
-    left: 500px;
+    /*left: 500px;*/
     align-items: center;
 }
 
@@ -65,7 +68,7 @@ nav .navbar {
     height: 300px;
     position: relative;
     left: 30px;
-    top: 150px;
+    top: 50px;
     border-radius: 400px;
 
 }
@@ -82,6 +85,10 @@ nav .navbar {
 }
 
 .story {
+    dispaly: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
     margin: 10px;
     margin-top: 180px;
     color: blue;
@@ -89,12 +96,18 @@ nav .navbar {
 }
 
 #doc {
-    position: relative;
+    /*position: relative;*/
+    align-self: center;
     text-align: center;
+    background-color: rgb(235, 242, 242);
+    border-radius: 15px;
+    width: fit-content;
+    padding:10px;
+    left: 500px;
     Bottom: 20px;
     font-size: 25px;
     font-weight: 500;
-    color: green;
+    color: blue;
 }
 
 .nav-links li a:hover {
@@ -124,8 +137,6 @@ body {
     color: #ddd;
     cursor: pointer;
 }
-
-
 
 .skill-title {
     display: flex;
@@ -168,6 +179,15 @@ body {
     flex-direction: column;
 }
 
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13%;
+}
+    
+
 .container .box {
     position: relative;
     display: flex;
@@ -177,27 +197,34 @@ body {
     padding: 30px;
 }
 
-.box .icon {
-    position: relative;
+.box {
     display: flex;
-    top: 140px;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
-.box .text1{
-    display: flex;
-    flex-direction: column;
-    color: blue;
-    margin-left: 115px;
-    position: relative;
-    top: 290px;
+
+box.icon,
+box.text1,
+box.text2,
+box.text3,
+box.text4,
+box.text5{
+    padding: 20px;
+    margin: 10px;
 }
 
-.box .text h3 {
-    font-weight: 500;
-    color: blue;
+.navbar, nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
+
+
 
 .icon1 {
     position: relative;
@@ -239,41 +266,13 @@ body {
     padding: 10px;
 }
 
-.box .text2{
-    display: flex;
-    flex-direction: column;
-    color: blue;
-    margin-left: 410px;
-    position: relative;
-    top: 120px;
-}
 
-.box .text3{
-    display: flex;
-    flex-direction: column;
-    color: blue;
-    margin-left: 720px;
-    position: relative;
-    bottom: 10px;
-}
 
-.box .text4{
-    display: flex;
-    flex-direction: column;
-    color: blue;
-    margin-left: 1000px;
-    position: relative;
-    bottom: 140px;
-}
 
-.box .text5{
-    display: flex;
-    flex-direction: column;
-    color: blue;
-    margin-left: 1330px;
-    position: relative;
-    bottom: 250px;
-}
+
+
+
+
 
 
 
