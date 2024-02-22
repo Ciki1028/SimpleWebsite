@@ -139,19 +139,18 @@ body {
     margin-top: 0.5rem;
 }
 
-.skill-icon {
+.skill-icon,
+box.icon1,
+box.icon2,
+box.icon3,
+box.icon4,
+box.icon5 {
     width: 50%;
     z-index: 2;
     
 }
 
-.img,
-box.icon1,
-box.icon2,
-box.icon3,
-box.icon4,
-box.icon5
-{
+.img{ 
     width: 90px;
     height: 90px;
     position: relative;
