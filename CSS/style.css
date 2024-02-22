@@ -145,7 +145,13 @@ body {
     
 }
 
-.img {
+.img,
+box.icon1,
+box.icon2,
+box.icon3,
+box.icon4,
+box.icon5
+{
     width: 90px;
     height: 90px;
     position: relative;
@@ -190,11 +196,6 @@ body {
     padding: 30px;
 }
 
-box.icon1,
-box.icon2,
-box.icon3,
-box.icon4,
-box.icon5,
 box.text1,
 box.text2,
 box.text3,
