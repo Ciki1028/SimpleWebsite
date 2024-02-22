@@ -221,7 +221,7 @@ box.icon5 {
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    margin-left: 10px;
+    justify-content: space-between;
 }
 
 
