@@ -15,26 +15,13 @@ h1 {
 }
 
 nav {
-    /*position: fixed;*/
     display: flex;
     justify-content: space-between;
     Flex-direction: row;
-    /*left: 0;
-    top: 0;
-    width: 100%;*/
     background: blue;
     padding: 20px;
     z-index: 3;
 }
-
-/*nav .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    max-width: 1200px;
-    margin: auto;
-}*/
 
 .navbar .logo a {
     font-size: 35px;
@@ -45,7 +32,6 @@ nav {
 .nav-links, .nav-links li a {
     display: flex;
     position: relative;
-    /*left: 500px;*/
     align-items: center;
 }
 
@@ -96,7 +82,7 @@ nav {
 }
 
 #doc {
-    /*position: relative;*/
+    
     align-self: center;
     text-align: center;
     background-color: rgb(235, 242, 242);
@@ -187,7 +173,6 @@ body {
     margin-top: 13%;
 }
     
-
 .container .box {
     position: relative;
     display: flex;
@@ -204,7 +189,6 @@ body {
     align-items: center;
     padding: 30px;
 }
-
 
 box.icon,
 box.text1,
@@ -223,8 +207,6 @@ box.text5{
     align-items: center;
     padding: 30px;
 }
-
-
 
 .icon1 {
     position: relative;
