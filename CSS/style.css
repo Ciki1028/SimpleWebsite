@@ -252,8 +252,8 @@ box.icon2,
 box.icon3,
 box.icon4,
 box.icon5 {
-    width: 20px;
-    height: 10px;
+    width: 90px;
+    /*height: 10px;*/
     position: relative;
     border-radius: 45px;
     background-color: #fff;
