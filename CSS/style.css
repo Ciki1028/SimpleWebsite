@@ -139,12 +139,8 @@ body {
     margin-top: 0.5rem;
 }
 
-.skill-icon,
-box.icon1,
-box.icon2,
-box.icon3,
-box.icon4,
-box.icon5 {
+.skill-icon
+ {
     width: 50%;
     z-index: 2;
     
@@ -251,6 +247,21 @@ box.text5{
     margin-left: 1300px;
     padding: 10px;
 }*/
+box.icon1,
+box.icon2,
+box.icon3,
+box.icon4,
+box.icon5 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
 
 
 
