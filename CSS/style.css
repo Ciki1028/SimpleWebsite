@@ -191,11 +191,11 @@ body {
     padding: 30px;
 }
 
-box.text1,
-box.text2,
-box.text3,
-box.text4,
-box.text5{
+.box.text1,
+.box.text2,
+.box.text3,
+.box.text4,
+.box.text5{
     padding: 20px;
     margin: 10px;
     color: blue;
