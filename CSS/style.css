@@ -219,7 +219,7 @@ box.icon5 {
     border-radius: 45px;
     background-color: #fff;
     display: flex;
-    
+    margin-right: 10px;
     align-items: center;
     margin-top: 200px;
     margin: 0px 10px 30px 20px;
