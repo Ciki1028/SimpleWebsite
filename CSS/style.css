@@ -71,7 +71,7 @@ nav {
 }
 
 .story {
-    dispaly: flex;
+    display: flex;
     justify-content: space-around;
     flex-direction: column;
     padding: 0px 20px 0px 20px;
